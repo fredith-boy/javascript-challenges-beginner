@@ -13,5 +13,11 @@
 const output = document.getElementById("output-container");
 if (!output) throw "Output container not found.";
 
+let number = 100
+let x = 0
+while (x < number) { console.log(x += 2) }
+
 //@ts-check
 // your code starts after this line
+
+
